@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,13 +7,47 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container-fluid" id="wrapper">
+        <div class="row">
+          <div class="col">
+
+          </div>
+        <div class="col">
+          <img src="img/logo.png" alt="logo" class="rounded mx-auto d-block">
+        </div>
+        <div class="col">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Strona główna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    <div class="container" id="contact">
+      <p>Jelly macaroon fruitcake croissant. Halvah pudding tart carrot cake. Fruitcake candy ice cream chocolate bar gingerbread sugar plum. Lemon drops jelly cotton candy. Cookie gingerbread apple pie sweet roll carrot cake jujubes biscuit powder gummi bears. Jujubes cookie jujubes danish tart brownie gingerbread dragée. Sweet lollipop liquorice muffin jujubes. Sweet roll candy canes carrot cake brownie candy gingerbread sugar plum croissant. Cotton candy cupcake sweet. Sweet roll liquorice pudding cake chocolate sweet roll tart lollipop marzipan. Sweet roll cookie chocolate cake dessert dessert cake. Soufflé chocolate bar jelly-o cake.
+Lemon drops cheesecake chocolate bar lemon drops gingerbread soufflé bonbon jelly beans. Cookie pudding biscuit gummies cake muffin brownie jelly. Dragée cake ice cream jelly cake jelly beans. Tootsie roll sugar plum jelly-o toffee. Candy canes bear claw liquorice apple pie topping pudding sugar plum chocolate brownie. Dessert icing croissant fruitcake bear claw. Sesame snaps dragée cake marshmallow tart marshmallow. Fruitcake lemon drops jujubes. Jujubes dessert chupa chups candy canes ice cream jelly-o. Cupcake candy canes tiramisu chocolate macaroon gummi bears topping toffee lemon drops. Soufflé biscuit bear claw. Cake soufflé cotton candy croissant gummi bears pastry gummi bears caramels cake. Marzipan apple pie icing soufflé cookie biscuit cake cake.
+Marzipan jelly chocolate bar carrot cake donut chocolate cake topping. Tootsie roll jujubes jelly bonbon. Lollipop cheesecake cake topping. Carrot cake cake apple pie tootsie roll jujubes pastry cotton candy sweet danish. Cheesecake carrot cake ice cream sweet gummi bears gummies icing. Cookie jelly lemon drops chocolate bar. Pastry bear claw liquorice tart biscuit gummi bears liquorice jujubes. Candy canes oat cake soufflé. Biscuit muffin chocolate bar bear claw cotton candy. Cake croissant tiramisu cheesecake ice cream bonbon powder tiramisu candy canes. Cotton candy candy brownie lemon drops halvah. Tiramisu jujubes jelly beans soufflé jelly-o powder cookie pastry tart. Candy bonbon gummies. Cheesecake jujubes pudding sesame snaps icing marshmallow.</p>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+    $("a[href='#contact']").click(function() {
+      $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+      return false;
+    });
+    </script>
   </body>
 </html>
