@@ -17,6 +17,11 @@ html, body {
     font-family: 'Kaushan Script', cursive;
     text-shadow: 2px 2px #000000;
   }
+  a.nav-link {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
 
