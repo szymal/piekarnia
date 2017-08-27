@@ -1,6 +1,22 @@
 html, body {
     height:100%;
 }
+@media (max-width: 576px) {
+  #main_subtitle {
+    color: white;
+    margin: 0;
+    position: absolute;
+    font-size: 34px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 2px 2px #000000;
+  }
+}
+
+
 a {
   color: inherit;
   font-family: 'Kaushan Script', cursive;
@@ -12,7 +28,7 @@ a {
    border-color: transparent;
 }
 
-.navbar li { color: #000 } 
+.navbar li { color: #000 }
 #top_menu {
   margin-top: 7%;
 }
